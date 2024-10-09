@@ -8,7 +8,7 @@ import java.util.Scanner;
             int Tahun = input10.nextInt();
 
             if ((Tahun % 4) == 0) {
-                if ((Tahun % 100) != 0 || Tahun % 400 == 0) {
+                if ((Tahun % 100) != 0 || Tahun % 400 == 0 || Tahun % 100 == 0) {
                     System.out.println("Tahun Kabisat");
                 } else {
                     System.out.println("Bukan Tahun Kabisat");
